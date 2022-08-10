@@ -112,7 +112,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"<code>{files.file_name}/n /n Size= {size}</code>"
+        f_caption = f"<code>{file_name}<>/n /n Size= {size}</code>"
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
