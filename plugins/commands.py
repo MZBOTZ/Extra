@@ -101,15 +101,12 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
         f_caption = f"{files.file_name}"
-    buttons = [
-        [
-            InlineKeyboardButton('🕹️ JOIN CHANNEL 🕹️', url='https://t.me/srfilmzone'),
-        ],
-        [
-              [
-            InlineKeyboardButton('hhh', url='https://t.me/mnzks')
-        ]
-        ]
+    buttons = [[
+            InlineKeyboardButton('🕹️ CHANNEL 🕹️', url='http://t.me/srfilmzone')
+            ],[
+            InlineKeyboardButton('🛑 HELP 🛑', url='https://t.me/Inbliz'),
+            InlineKeyboardButton('♻️ SHARE ♻️, url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
+        ]]          
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
