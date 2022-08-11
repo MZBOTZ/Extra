@@ -45,7 +45,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Inblizbot/AUTO-FILTER-EXTRA">
+<a href="https://heroku.com/deploy?template="https://github.com/Inblizbot/AUTO-FILTER-EXTRA">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
