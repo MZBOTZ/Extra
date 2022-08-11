@@ -112,7 +112,12 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"<code>{file_name}<>/n /n Size= {size}</code>"
+        f_caption = f"{files.file_name}"
+    buttons = [
+        [
+            InlineKeyboardButton('🎀 CHANNEL 🎀', url='https://t.me/srfilmzone')
+        ]
+        ]
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
