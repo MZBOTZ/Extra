@@ -37,7 +37,7 @@ async def start(client, message):
             InlineKeyboardButton('🕹️ CHANNEL 🕹️', url='http://t.me/srfilmzone')
             ],[
             InlineKeyboardButton('🛑 HELP 🛑', url='https://t.me/Inbliz'),
-            InlineKeyboardButton('♻️ SHARE ♻️, url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
+            InlineKeyboardButton('♻️ SHARE ♻️', url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -105,7 +105,7 @@ async def start(client, message):
             InlineKeyboardButton('🕹️ CHANNEL 🕹️', url='http://t.me/srfilmzone')
             ],[
             InlineKeyboardButton('🛑 HELP 🛑', url='https://t.me/Inbliz'),
-            InlineKeyboardButton('♻️ SHARE ♻️, url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
+            InlineKeyboardButton('♻️ SHARE ♻️', url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
         ]]          
     await client.send_cached_media(
         chat_id=message.from_user.id,
