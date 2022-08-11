@@ -1,4 +1,4 @@
-## See
+## INBLIZ 
   <img src="assets/New Project 98 [1AEE704].png" alt="ⒾⓃⒷⓁⒾⓏ">
 </p>
 <h1 align="centre">
@@ -9,18 +9,18 @@
 
 ## Features
 
-- [x] Auto Filter
-- [x] Manual Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
+- [✓] Auto Filter
+- [✓] Manual Filter
+- [✓] IMDB
+- [✓] Admin Commands
+- [✓] Broadcast
+- [✓] Index
+- [✓] IMDB search
+- [✓] Inline Search
+- [✓] Random pics
+- [✓] ids and User info 
+- [✓] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [✓] Spelling Check Feature
 
 ## Variables
 
@@ -54,7 +54,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax
+git clone https://github.com/TGEBOTZ
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -91,5 +91,5 @@ python3 bot.py
 • /broadcast - to broadcast a message to Ajax users
 ```
 
-<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ᴀᴀᴅʜɪ](https://telegram.dog/AboutAadhi) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/aadhi.xr/) | [ɢɪᴛʜᴜʙ](GitHub.com/Aadhi000)</b>                                                                                                                                                                                    
-<b>ᴄʜᴀɴɴᴇʟ ›› [ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ](https://t.me/MWUpdatez)</b>
+<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [Creator](https://telegram.dog/Inbliz) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/muzafir____/) | [ɢɪᴛʜᴜʙ](GitHub.com/TGEBOTZ)</b>                                                                                                                                                                                    
+<b>ᴄʜᴀɴɴᴇʟ ›› [Owner](https://t.me/mnzks)</b>
