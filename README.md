@@ -1,4 +1,4 @@
-##See<p align="centre">
+##See align="centre">
   <img src="assets/New Project 98 [1AEE704].png" alt="ⒾⓃⒷⓁⒾⓏ">
 </p>
 <h1 align="centre">
