@@ -34,10 +34,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🕹️ CHANNEL 🕹️', url='http://t.me/srfilmzone')
+            InlineKeyboardButton('ℂℍ𝔸ℕℕ𝔼𝕃', url='http://t.me/srfilmzone')
             ],[
-            InlineKeyboardButton(' HELP ', callback_data='help'),
-            InlineKeyboardButton(' ABOUT ', callback_data='about')
+            InlineKeyboardButton(' ℍ𝔼𝕃ℙ ', callback_data='help'),
+            InlineKeyboardButton(' 𝔸𝔹𝕆𝕌𝕋 ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -56,7 +56,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHAИИΞL 🔥", url=invite_link.invite_link
+                    "🔥 𝕁𝕆𝕀ℕ ℂℍ𝔸ℕℕ𝔼𝕃 🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -72,10 +72,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🕹️ CHANNEL 🕹️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' ℂℍ𝔸ℕℕ𝔼𝕃 ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton(' HELP ', callback_data='help'),
-            InlineKeyboardButton(' ABOUT ', callback_data='about')
+            InlineKeyboardButton(' ℍ𝔼𝕃ℙ ', callback_data='help'),
+            InlineKeyboardButton(' 𝔸𝔹𝕆𝕌𝕋 ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -102,10 +102,10 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [[
-            InlineKeyboardButton('🕹️ CHANNEL 🕹️', url='http://t.me/srfilmzone')
+            InlineKeyboardButton('〘 ℂℍ𝔸ℕℕ𝔼𝕃 〙', url='http://t.me/srfilmzone')
             ],[
-            InlineKeyboardButton('🛑 HELP 🛑', url='https://t.me/Inbliz'),
-            InlineKeyboardButton('♻️ SHARE ♻️', url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
+            InlineKeyboardButton('〘 ℍ𝔼𝕃ℙ 〙', url='https://t.me/Inbliz'),
+            InlineKeyboardButton('〘 𝕊ℍ𝔸ℝ𝔼 〙', url='https://t.me/share/url?url=%20https://t.me/srsuggestionsmc')
         ]]          
     await client.send_cached_media(
         chat_id=message.from_user.id,
